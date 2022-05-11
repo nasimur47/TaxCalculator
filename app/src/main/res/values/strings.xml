@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">tax_calculaor</string>
+    <string name="kzkzznnzzkjklll">KZKZZnnZZKjklll</string>
+
+    <string-array name="names">
+        <item>পুরুষ</item>
+        <item>মহিলাও৬৫+</item>
+        <item>প্রতিবন্ধি</item>
+        <item>মুক্তিযোদ্দা</item>
+    </string-array>
+</resources>

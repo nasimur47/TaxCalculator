@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+
+    >
+  <pl.droidsonroids.gif.GifImageView
+      android:layout_width="match_parent"
+      android:layout_height="180dp"
+      android:src="@drawable/tax_gif"
+
+      android:background="#4FAFDA"
+      />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        tools:ignore="ExtraText"
+        >
+        <LinearLayout
+            android:id="@+id/taxcal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+        <soup.neumorphism.NeumorphCardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_marginLeft="40dp"
+            app:neumorph_shapeType="flat"
+            app:neumorph_backgroundColor="#4FAFDA">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginTop="7dp"
+                android:src="@drawable/tax_cal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ট্যাক্স হিসাব করুন"
+                android:textSize="20dp"
+                android:textColor="#9C27B0"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginTop="75dp"
+
+                />
+        </soup.neumorphism.NeumorphCardView>
+
+
+        </LinearLayout>
+
+<!--        second-->
+
+
+        <LinearLayout
+            android:id="@+id/goe_tin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_marginLeft="40dp"
+                app:neumorph_shapeType="flat"
+                app:neumorph_backgroundColor="#4FAFDA">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="7dp"
+                    android:src="@drawable/images" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ই-টিন"
+                    android:textSize="20dp"
+                    android:textColor="#9C27B0"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_marginTop="85dp"
+                    android:layout_marginLeft="30dp"
+
+                    />
+            </soup.neumorphism.NeumorphCardView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+<!--    second line start-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        tools:ignore="ExtraText"
+        >
+        <LinearLayout
+            android:id="@+id/goe_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_marginLeft="40dp"
+                app:neumorph_shapeType="flat"
+                app:neumorph_backgroundColor="#4FAFDA">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:src="@drawable/e_return"
+                    android:layout_marginTop="7dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ই-রির্টান"
+                    android:textSize="20dp"
+                    android:textColor="#9C27B0"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_marginTop="82dp"
+                    android:layout_marginLeft="30dp"
+
+                    />
+            </soup.neumorphism.NeumorphCardView>
+
+
+        </LinearLayout>
+
+        <!--        second-->
+
+
+        <LinearLayout
+            android:id="@+id/gowebpage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_marginLeft="40dp"
+                app:neumorph_shapeType="flat"
+                app:neumorph_backgroundColor="#4FAFDA">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="7dp"
+                    android:src="@drawable/web_img" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ওয়েবসাইট সমূহ"
+                    android:textSize="20dp"
+                    android:textColor="#9C27B0"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_marginTop="75dp"
+
+                    />
+            </soup.neumorphism.NeumorphCardView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+<!--    third line start-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        tools:ignore="ExtraText"
+        >
+        <LinearLayout
+            android:id="@+id/gopaid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_marginLeft="40dp"
+                app:neumorph_shapeType="flat"
+                app:neumorph_backgroundColor="#4FAFDA">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:src="@drawable/tax_give"
+                    android:layout_marginTop="7dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ট্যাক্স প্রদান করূন"
+                    android:textSize="20dp"
+                    android:textColor="#9C27B0"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_marginTop="75dp"
+
+                    />
+            </soup.neumorphism.NeumorphCardView>
+
+
+        </LinearLayout>
+
+        <!--        second-->
+
+
+        <LinearLayout
+            android:id="@+id/goinform"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                style="@style/Widget.Neumorph.CardView"
+                android:layout_marginLeft="40dp"
+                app:neumorph_shapeType="flat"
+                app:neumorph_backgroundColor="#4FAFDA">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:src="@drawable/inform"
+                    android:layout_marginTop="7dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="তথ্য সেবা"
+                    android:textSize="20dp"
+                    android:textColor="#9C27B0"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_marginTop="85dp"
+                    android:layout_marginLeft="20dp"
+
+                    />
+            </soup.neumorphism.NeumorphCardView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#4FAFDA"
+        android:layout_marginTop="10dp"
+        >
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/home"
+
+            />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/alarm"
+
+            />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="100dp"
+
+            android:layout_marginLeft="100dp"
+            android:src="@drawable/myprofile" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
